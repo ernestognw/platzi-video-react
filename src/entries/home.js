@@ -5,9 +5,9 @@ import Home from '../pages/containers/home';
 
 // console.log('Hola Mundo');
 
-const container = document.getElementById('app');
+const homeContainer = document.getElementById('home-container');
 
 // const holaMundo = <h1>Hola Estudiante!</h1>
 // ReactDOM.render(que voy a renderizar, donde lo haré);
 
-render(<Home data={data} />, app);
+render(<Home data={data} />, homeContainer);
